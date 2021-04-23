@@ -108,6 +108,7 @@ class ProductController extends Controller
     }
 
     function sell(Request $req){
+        $userId=Session::get('user')['id'];
         $product = new Product;
         $product->name = $req->name;
         $product->price = $req->price;

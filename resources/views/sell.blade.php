@@ -6,7 +6,7 @@
             <form action="sell" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group">
-                    <label for="exampleInputEmail1">User Name</label>
+                    <label for="exampleInputEmail1">Name</label>
                     <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Name">
                 </div>
                 <div class="form-group">
